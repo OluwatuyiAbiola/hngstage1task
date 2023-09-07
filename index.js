@@ -29,7 +29,7 @@ app.get('/api', (req, res) => {
 
         if (current >= lowerBound && current <= upperBound) {
             //format the current UTC time
-            const formattedUTC = current.toISOString().slice(0, -1);
+            const formattedUTC = current.toISOString().split('.')[0] + 'Z';
             return formattedUTC;
         } else{
             return null;
