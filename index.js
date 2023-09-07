@@ -43,8 +43,8 @@ app.get('/api', (req, res) => {
         current_day: current_day,
         utc_time: getCurrentUTCWithinWindow(),
         track : track,
-        github_file_url : "",
-        github_repo_url : "",
+        github_file_url : "https://github.com/OluwatuyiAbiola/hngstage1task/blob/master/index.js",
+        github_repo_url : "https://github.com/OluwatuyiAbiola/hngstage1task",
         status_code : res.statusCode
     };
 
