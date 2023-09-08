@@ -1,14 +1,22 @@
 {
   "name": "hngstage1",
   "version": "1.0.0",
-  "description": "",
+  "description": "hngstage1task",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OluwatuyiAbiola/hngstage1task.git"
+  },
   "author": "Oluwatuyi Abiola",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OluwatuyiAbiola/hngstage1task/issues"
+  },
+  "homepage": "https://github.com/OluwatuyiAbiola/hngstage1task#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.2"
   }
 }
